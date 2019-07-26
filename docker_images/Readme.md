@@ -27,18 +27,24 @@
 
   ## Ver el listado de contedores 
    Lista  todos los contenedores
+
     docker ps -a 
 
      
    Lista los contenedores vivos 
+
     docker ps      	  
    
   ## Eliminar una imagen
+   
    Comando para eliminar una imagen
+
     docker rm -fv apache81
   
   ## Historial de una imagen
+   
    Comando para ver el histial de una imagen 
+
 	docker history -H apache-centos:apache-cmd --no-trunc
     -H : Para que muestre el historico en formato humano
     apache-centos:apache-cmd nombre_de_la:imagen:label_de_la_imagen 
