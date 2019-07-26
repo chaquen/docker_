@@ -1,4 +1,4 @@
-# ¿Que es un dockerfile?
+# ¿Qué es un dockerfile?
 
 	Es el archivo que permite definir nuestras imagenes estas siempre se deben crear en base a un sistema operativo y deben tener un servicio que mantenga vivo o en ejución dicha imagen para ello se debe ejecutar un proceso en primer plano para que este mantenja en ejecución la imagen.
 
@@ -6,7 +6,7 @@
 	
 	El dockerfile es una archivo sin extención que sedebe llamr por convensión Dockerfile sin embago se puede tener diferentes nombres
 
-# Lista de comando basicos de un DOckerfile
+# Lista de comando basicos de un Dockerfile
    
    Comando que inicia la imagen en base a un s.o (sistema operativo).
    
