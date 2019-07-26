@@ -37,7 +37,7 @@
     
    --name apache81 : nombre de la imagen
     
-   -p 80:81 : puertos el PuertoCOntenedor:PuertoEquipoFisico
+   -p 80:81 : puertos el PuertoDelContenedor:PuertoEquipoFisico
     
    apache-centos:apache-cmd : nombre de la imagen base de un contenedor 
 
