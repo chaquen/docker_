@@ -1,4 +1,4 @@
-# Variables de entorno
+# Exponer un puerto diferente a mi servidor
 
   ### Aqui usamos el comando EXPOSE.
 

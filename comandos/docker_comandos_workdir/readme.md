@@ -1,4 +1,4 @@
-# Variables de entorno
+# Indicar el direcorio de trabajo
 
   ### Aqui usamos el comando WORKDIR.
 
