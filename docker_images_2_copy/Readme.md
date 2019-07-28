@@ -19,12 +19,12 @@
   Este comando permite copiar a nuestra imagen el contenido de una carpeta en especifico, en este caso ## desing_two  ## el cuál se encuentra en la raiz del de la carpeta donde se va a crear la imagen.
 
 
-    ## ¿Cómo ejecutar este ejemplo?
+   ## ¿Cómo ejecutar este ejemplo?
   	
-  	Construir
+  ### Construir
 
       docker build -t nombre_de_la_imagen .
 
-  	Ejecutar
+  ### Ejecutar
 
       docker run -d --name nombre_del_contenedor - puerto_que_vas_a_exponer:puerto_del_servidor_de_tu_imagen nombre_de_la_imagen  
