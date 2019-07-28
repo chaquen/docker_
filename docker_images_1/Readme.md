@@ -8,7 +8,7 @@
 
 # Lista de comando basicos de un Dockerfile
    
-   Comando que inicia la imagen en base a un s.o (sistema operativo).
+   Comando que inicia la imagen en base a un s.o (sistema operativo) o una imagen docker.
    
     FROM s.o
    
