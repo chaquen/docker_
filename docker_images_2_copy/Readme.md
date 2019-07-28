@@ -27,4 +27,4 @@
 
   ### Ejecutar
 
-      docker run -d --name nombre_del_contenedor - puerto_que_vas_a_exponer:puerto_del_servidor_de_tu_imagen nombre_de_la_imagen  
+      docker run -d --name nombre_del_contenedor -p puerto_que_vas_a_exponer:puerto_del_servidor_de_tu_imagen nombre_de_la_imagen  
