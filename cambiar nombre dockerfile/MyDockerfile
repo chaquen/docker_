@@ -1,0 +1,4 @@
+FROM centos 
+RUN yum -y install httpd
+RUN echo "hola mundo :) desde MyDockerfile" > /var/www/html/index.html
+CMD apachectl -DFOREGROUND
