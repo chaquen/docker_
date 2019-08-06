@@ -19,7 +19,8 @@
   	
   ### Construir
 
-      docker build -t nombre_de_la_imagen -f MyNUevoNombreDockerfile .
+      docker build -t nombre_de_la_imagen -f MyNUevoNombre
+      Dockerfile .
 
 
   ### Ejecutar
