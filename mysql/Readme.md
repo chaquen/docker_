@@ -22,7 +22,7 @@ Acceder al servidor Mysql en tu maquina.
 
 Eliminar todos los contenedores.
 
-		docker rm -fv $(docker ps -aq)^C
+		docker rm -fv $(docker ps -aq)
 
 
 
