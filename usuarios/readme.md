@@ -1,8 +1,8 @@
-# Imagen Docker dpara probar usuarios
+# Imagen Docker para probar usuarios
 
 ### Ejemplo de imagen Docker para probar usuarios
 
-Crearimagen a partir de un archivo Dockerfile
+Crear imagen a partir de un archivo Dockerfile
 
 	   FROM centos
 	   ENV prueba 1234
