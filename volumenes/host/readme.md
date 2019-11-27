@@ -1,5 +1,5 @@
 # Volumenes de host
-Estos son los datos que persisten en nuestro docker host, dentro de una carpeta de el file system del anfitrion.
+Estos son los datos que persisten en nuestro docker host, dentro de una carpeta del file system del anfitrion.
 
 # Volumenes Named Volumes
 Son similares a los volumenes Anonymus pero estos su tienen una carpeta nombrada por nosotros.
@@ -21,7 +21,7 @@ Ahora tendremos un archivo de respaldo de la base de datos sys
 
 		mysql -u root -h 172.17.0.2 -p docker_db < dump.sql
 
-Con esto tendremos una base de datos inicializada, sin embargo si eliminamos  el contenedor y volvemos a recrrarlo los datos copiados se perderan para evitar esto, pondremos en uso los volumenes	
+Con esto tendremos una base de datos inicializada, sin embargo si eliminamos  el contenedor y volvemos al recrearlo los datos copiados se perderan para evitar esto, pondremos en uso los volumenes	
 
 ## Eliminar el contenedor
 	
@@ -39,7 +39,7 @@ Con esto tendremos una base de datos inicializada, sin embargo si eliminamos  el
 
 	docker run -d --name nombre_del_contenedor -p 3307:3306 -e "MYSQL_ROOT_PASSWORD=12345678" -v /opt/mysql/:/var/lib/mysql mysql
 	
-Ahora podemos ingresar a nuestra base de datoss crear y manipular los datos y cada vez que recreemos el contenedor tendremso nuestra información salvagauardada.
+Ahora podemos ingresar a nuestra base de datos crear y manipular los datos y cada vez que recreemos el contenedor tendremos nuestra información salvagauardada.
 
 
 ### TIP 

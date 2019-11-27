@@ -1,7 +1,7 @@
 # Volumenes Anonymus (NO ES BUENA PRACTICA)
 Son los volumenes manejados por Docker generando una carpeta random, sin un nombre en especifico.
 
-Al igual que los volumenes de host eprmiten almacenar información persistentemente pero con la unica diferencia de que nosotros no le damos al ruta donde queremos almacenar los datos del contenedor.
+Al igual que los volumenes de host permiten almacenar información persistentemente pero con la unica diferencia de que nosotros no le damos al ruta donde queremos almacenar los datos del contenedor.
 
 ## ¿Cómo ver la ruta donde se almacenan los volumenes anonimos?
 

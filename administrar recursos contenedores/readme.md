@@ -6,11 +6,11 @@ Crear un contenedor, para este ejemplo usaremos una imagen de [Mongo](https://hu
 
 	   docker run -d --name nombre_contenedor mongo
  
- #### ver el uso de recursos de un contenedor
+#### ver el uso de recursos de un contenedor
 
       docker stats nombre_contendor
 
- ####  Limitar la memoria
+####  Limitar la memoria
 
       docker run -d -m "1024mb" --name mongo3 mongo
 
