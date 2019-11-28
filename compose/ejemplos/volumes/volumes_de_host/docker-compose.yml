@@ -1,0 +1,9 @@
+version: "3"
+services: 
+    webapp:
+      container_name: mi_contenedor_con_volumes_de_host
+      ports: 
+          - "8081:80"
+      image: nginx
+      volumes: 
+        - "/home/chaquen/Documents/docker_/compose/recursos/docker-compose-2018-07-17/docker-compose/html:/usr/share/nginx/html"
