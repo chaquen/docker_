@@ -3,7 +3,7 @@ Es una herramienta que permite ejecutar multiples contenedores.
 
 ## ¿Cómo lo instalo?
 	
-Acceda al (sitio web)[https://docs.docker.com/compose/]
+Acceda al (https://docs.docker.com/compose/)[sitio web]
 
 ### Paso 1. Acceda como root.
 
@@ -28,7 +28,7 @@ Esto le mostrara el listado de comando permitidos por esta herramienta.
 
 ### Paso 1. Creamos un archivo .yml 
 
-Para consultar la documentación de docker compose dirigase a este (sitio web)[https://docs.docker.com/compose/]
+Para consultar la documentación de docker compose dirigase a este (https://docs.docker.com/compose/)[sitio web]
 
 	version: " version de docker compose" (version)[https://docs.docker.com/compose/compose-file/compose-versioning/]
 	services: "servicios (contenedores que vamos a definir)"
