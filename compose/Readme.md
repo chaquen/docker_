@@ -152,4 +152,68 @@ En caso de que requieras acceder al contendor puedes hacerlo a través del coman
 	docker exec -ti nombre_del_contenedor bash
 
 
+# Redes en Docker Compose
+Ejemplo de como asociar una red a uno o varios contenedores
 
+
+	version: "3"
+	services: 
+	  web:
+	    container_name: nginx1
+	    ports:
+	        - "8080:80"
+    image: nginx
+	    networks:
+	      - net-test    
+	  web2:
+	    container_name: nginx2
+	    ports:
+	        -  "8081:80"
+	    image: nginx
+	    networks:
+	      - net-test
+	networks:
+	    net-test:
+
+En este ejemplo se puede acceder a cualquiera de las imagenes e instalar  la herramienta para hacer ping
+
+
+	docker exec -ti nginx1 bash 
+	
+	apt-get update
+	apt-get install iputils-ping
+
+luego acceder al contenedor y ejecuta el ping entre las maquinas, de igual manera puedes usar el comando para ver las redes.
+
+	docker inspect nombre_de_contenedor
+
+# Construir imagenes desde Docker compose	
+
+Ejemplo como crear imagenes con docker compose
+
+	version: "3"
+	services: 
+	  web:
+	    container_name: webapp
+	    image: web-test
+	    build: .
+
+Ejemplo con Dockerfile con nombre diferente
+
+	version: "3"
+	services: 
+	  web:
+	    container_name: webapp
+	    image: web-test
+	    build: 
+	    	context: .
+	    	dockerfile : NombreDelArchivo
+
+
+Para construir la imagen ejecutamos el comando.
+
+	docker-compose build
+
+Para constuir el contenedor basado en la imagen creada usamos el comando
+
+	docker run -ti web-test
